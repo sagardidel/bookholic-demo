@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Products-Bookholic</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 bg-dark" id="headerNav">
+    <div class="container-fluid">
+      <a class="navbar-brand d-block d-lg-none" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-book"
+          viewBox="0 0 16 16">
+          <path
+            d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" href="product.html">Products</a>
+          </li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="nav-link mx-2 text-success " href="index.html">
+              <p>BOOKHOLIC</p>
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                class="bi bi-book" viewBox="0 0 16 16">
+                            
+                                <path
+                                    d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" /> -->
+              </svg>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="Pricing.html">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Company
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            
+              <li><a class="dropdown-item" href="about.html">About Us</a></li>
+              <li><a class="dropdown-item" href="contact.html">Contact us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Finance -->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>Finance</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="money1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="money2.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="money3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="money4.webp" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="money5.jpg" class="mx-auto" width="300" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <hr>
+  <!-- LIFESTYLE -->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>LIFESTYLE</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="lfs1.png" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="lfs2.png" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="lfs3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="lfs4.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="lfs5.webp" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- biograhpy -->
+
+
+
+
+  <hr>
+
+
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>BIOGRAHPY</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="bio1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="bio2.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="bio3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+  <hr>
+
+   <!-- TECHNOLOGY -->
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>TECHNOLOGY</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="tech1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="tech2.webp" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="tech3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <hr>
+
+
+  <!-- COOKING -->
+  
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <h3>COOKING</h3>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- card 1 -->
+          <div class="col">
+            <div class="card shadow-sm ">
+              <img src="cook1.webp" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- card 2 -->
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cook2.avif" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- card 3 -->
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="cook3.jpg" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+
+
+
+  <HR>
+
+    <!-- FICTION  -->
+ 
+ 
+    <div class="album py-5 bg-light">
+     <div class="container">
+       <h3>FICTION</h3>
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+         <!-- card 1 -->
+         <div class="col">
+           <div class="card shadow-sm ">
+             <img src="fic1.webp" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 2 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic2.webp" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 3 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic3.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 4 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic4.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 5 -->
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic5.png" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+ 
+          <!-- card 6-->
+          <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic6.png" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+           <!-- card 7 -->
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="fic7.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+ 
+       </div>
+     </div>
+   </div>
+
+
+  <hr>
+
+
+
+<!-- COMIC -->
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>COMIC</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="comic1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="comic2.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="comic3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <hr>
+
+  
+
+  <!-- MANGA -->
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>MANGA</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="manga1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="manga2.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="manga3.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    
+
+
+
+  
+  <hr>
+
+
+  <!-- HORROR-->
+  
+    <div class="album py-5 bg-light">
+      <div class="container">
+        <h3>HORROR</h3>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- card 1 -->
+          <div class="col">
+            <div class="card shadow-sm ">
+              <img src="hor1.jpg" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- card 2 -->
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="hor2.jpg" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- card 3 -->
+  
+          <div class="col">
+            <div class="card shadow-sm">
+              <img src="hor3.jpg" class="mx-auto" width="200" height="300" alt="">
+  
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  
+                    <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+  
+  
+  
+  
+  
+  
+          
+  
+        </div>
+      </div>
+    </div>
+
+
+<HR>
+
+
+   <!-- HARRY POTTER-->
+
+   <div class="album py-5 bg-light">
+    <div class="container">
+      <h3>HARRY POTTER</h3>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <!-- card 1 -->
+        <div class="col">
+          <div class="card shadow-sm ">
+            <img src="harry1.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="harry2.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="harry3.webp" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 4 -->
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="harry4.jpg" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 5 -->
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="harry5.png" class="mx-auto" width="200" height="300" alt="">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+   
+
+
+
+
+   
+
+  <HR>
+
+
+    <!-- SONG OF ICE AND FIRE-->
+ 
+    <div class="album py-5 bg-light">
+     <div class="container">
+       <h3>SONG OF ICE AND FIRE</h3>
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+         <!-- card 1 -->
+         <div class="col">
+           <div class="card shadow-sm ">
+             <img src="ice1.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 2 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="ice2.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 3 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="ice3.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 4 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="ice4.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 5 -->
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="ice5.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+   <HR>
+
+
+    <!-- WITCHER-->
+ 
+    <div class="album py-5 bg-light">
+     <div class="container">
+       <h3>THE WITCHER</h3>
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+         <!-- card 1 -->
+         <div class="col">
+           <div class="card shadow-sm ">
+             <img src="witch1.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 2 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="witch2.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 3 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="witch3.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 4 -->
+ 
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="witch4.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+ 
+         <!-- card 5 -->
+         <div class="col">
+           <div class="card shadow-sm">
+             <img src="witch5.jpg" class="mx-auto" width="200" height="300" alt="">
+ 
+             <div class="card-body">
+               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                 content. This content is a little bit longer.</p>
+               <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  
+                  <button type="button" onclick="window.location.href='pricing.html'" class="btn btn-sm btn-outline-secondary"> BUY </button>
+                </div>
+                 <small class="text-muted">9 mins</small>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+
+
+
+  <!-- footer -->
+  <footer class="py-3  my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="product.html" class="nav-link px-2 text-muted">Products</a></li>
+      <li class="nav-item"><a href="Pricing.html" class="nav-link px-2 text-muted">Pricing</a></li>
+
+      <li class="nav-item"><a href="about.html" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">© 2022 Company, Inc</p>
+    <h1 class="text-success" style="text-align:center;">BOOKHOLIC</h1>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
